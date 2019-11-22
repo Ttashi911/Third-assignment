@@ -4,18 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#95A5A6"
+    android:background="#5B9497"
     android:orientation="vertical">
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="76dp"
-        android:background="#1B4D45"
+        android:background="#1B4D39"
         android:gravity="center"
         android:text="Student Details"
-        android:textColor="#FFFFFF"
+        android:textColor="#A03F3F"
         android:textSize="30dp"
         android:textStyle="bold" />
-
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewHome"

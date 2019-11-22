@@ -9,10 +9,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="76dp"
-        android:background="#1B4D45"
+        android:background="#946B8E"
         android:gravity="center"
         android:text="Login"
-        android:textColor="#FFFFFF"
+        android:textColor="#0D2746"
         android:textSize="30dp"
         android:textStyle="bold" />
 
@@ -34,12 +34,14 @@
         android:inputType="textPassword"
         android:textSize="25dp" />
 
+
     <Button
         android:id="@+id/btnLogin"
-        android:layout_width="wrap_content"
+        android:layout_width="116dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="20dp"
+        android:background="#B484C9"
         android:text="Login" />
 
 </LinearLayout>

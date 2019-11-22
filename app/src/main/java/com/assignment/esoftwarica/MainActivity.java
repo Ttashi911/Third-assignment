@@ -29,14 +29,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         usernameLogin = etUsername.getText().toString();
         passwordLogin = etPassword.getText().toString();
 
-        if (usernameLogin.equals("shrishak") && passwordLogin.equals("shrishak")){
+        if (usernameLogin.equals("tashi") && passwordLogin.equals("tashi")){
             etUsername.getText().clear();
             etPassword.getText().clear();
             Intent intent = new Intent(this, Dashboard.class);
             startActivity(intent);
         } else {
-            etUsername.setError("Please enter valid username");
-            etPassword.setError("Please enter valid password");
+            etUsername.setError("Please enter a valid username");
+            etPassword.setError("Please enter a valid password");
         }
     }
 }

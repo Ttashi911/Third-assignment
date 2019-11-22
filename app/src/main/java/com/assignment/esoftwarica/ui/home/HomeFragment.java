@@ -26,11 +26,11 @@ public class HomeFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_home, container, false);
         recyclerViewHome = root.findViewById(R.id.recyclerViewHome);
 
-        Students students = new Students("admin", "tokha", "Male", "50",R.drawable.noimg);
+        Students students = new Students("Tashi", "Boudha", "Male", "24",R.drawable.noimg);
         studentsList = students.getStudentsList();
         if (studentsList.isEmpty()){
-            studentsList.add(new Students("shrishak shrestha", "tokha", "Male", "22", R.drawable.maleimg));
-            studentsList.add(new Students("Anisha Shrestha", "tokha", "Female", "20", R.drawable.femaleimg));
+            studentsList.add(new Students("Tashi Norbu Lama", "Boudha", "Male", "24", R.drawable.maleimg));
+            studentsList.add(new Students("Tsering Dorjee", "Boudha", "Male", "23", R.drawable.maleimg));
             students.setStudentsList(studentsList);
         }
         StudentsAdapter studentsAdapter = new StudentsAdapter(getActivity(), studentsList);
